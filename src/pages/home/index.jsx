@@ -13,7 +13,7 @@ function Home() {
         recipeList.map((item) => <RecipeItem item={item} />)
       ) : (
         <div>
-          <p className="lg:text-4xl text-xl text-center text-white font-extrabold">
+          <p className="lg:text-4xl text-xl text-center text-rose-800 font-extrabold">
             Nothing to show. Please search something
           </p>
         </div>

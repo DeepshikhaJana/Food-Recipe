@@ -9,7 +9,7 @@ function navbar() {
   return (
     <nav className='sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80"'>
       <div className="flex justify-between items-center">
-        <div className="text-3xl font-bold text-white">Food Recipe 🍜</div>
+        <div className="text-3xl font-bold text-rose-800">Food Recipe 🍜</div>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -24,7 +24,7 @@ function navbar() {
           <li>
             <NavLink
               to={"/"}
-              className="text-white hover:text-red-500 duration-200"
+              className="text-rose-400 font-semibold hover:text-red-900 duration-200"
             >
               Home
             </NavLink>
@@ -32,7 +32,7 @@ function navbar() {
           <li>
             <NavLink
               to={"/favorites"}
-              className="text-white hover:text-red-500 duration-200"
+              className="text-rose-400 font-semibold hover:text-red-900 duration-200"
             >
               favorites
             </NavLink>

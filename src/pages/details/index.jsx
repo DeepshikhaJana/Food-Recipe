@@ -41,7 +41,7 @@ function Details() {
         <span className="text-sm text-cyan-700 font-medium">
           {recipeDetailsData?.recipe?.publisher}
         </span>
-        <h3 className="font-bold text-2xl truncate text-white">
+        <h3 className="font-bold text-2xl truncate text-sky-800">
           {recipeDetailsData?.recipe?.title}
         </h3>
         <div>
@@ -60,16 +60,16 @@ function Details() {
           </button>
         </div>
         <div>
-          <span className="text-2xl font-semibold text-white">
+          <span className="text-2xl font-semibold text-pink-800">
             Ingredients:
           </span>
           <ul>
             {recipeDetailsData?.recipe?.ingredients.map((ingredient) => (
               <li>
-                <span className="text-2xl font-semibold text-white">
+                <span className="text-2xl font-semibold text-sky-800">
                   {ingredient.quantity} {ingredient.unit}
                 </span>
-                <span className="text-2xl font-semibold text-white">
+                <span className="text-2xl font-semibold text-sky-800">
                   {ingredient.description}
                 </span>
               </li>
